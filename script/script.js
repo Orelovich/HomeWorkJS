@@ -7,11 +7,10 @@ let addExpenses = '150, 150, 100, 100, 50';
 let deposit = 500;
 let mission = 6000;
 let period = 12;
+let budgetDay = money / 30;
 
 console.log(money, income, deposit);
 console.log(addExpenses.length);
 console.log(period = mission);
-console.log(addExpenses.toLowerCase(), addExpenses.split(', '));
-
-let budgetDay = money / 30;
+console.log(addExpenses.toLowerCase().split(', '));
 console.log(budgetDay);
