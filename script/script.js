@@ -5,4 +5,4 @@ let income;
 let addExpenses;
 let deposit;
 let mission;
-let Period;
+let period;
