@@ -1,13 +1,13 @@
 alert("Привет");
 console.log('Hello!');
 
-let money = 1000;
-let income = '500';
-let addExpenses = '150, 150, 100, 100, 50';
-let deposit = 500;
-let mission = 6000;
-let period = 12;
-let budgetDay = money / 30;
+const money = 1000;
+const income = '500';
+const addExpenses = '150, 150, 100, 100, 50';
+const deposit = 500;
+const mission = 6000;
+const period = 12;
+const budgetDay = money / 30;
 
 console.log(typeof money, typeof income, typeof deposit);
 console.log(addExpenses.length);
