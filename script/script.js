@@ -3,7 +3,7 @@ alert("Привет");
 console.log('Hello!');
 
 const money = +prompt('Ваш месячный доход?');
-const income = '500';
+const income = 500;
 const addExpenses = prompt('Перечислите возможные расходы за рассчитываемый период через запятую');
 const deposit = confirm('Есть ли у вас депозит в банке?');
 const mission = 6000;
@@ -23,11 +23,6 @@ console.log('обязательная статья расходов 2/2 ' + expe
 console.log('расход 1 ' + amount1);
 console.log('расход 2 ' + amount2);
 
-console.log(typeof money, typeof income, typeof deposit);
-console.log('период равен ' + period + ' месяцев');
-console.log('Цель заработать ' + mission + ' долларов');
-console.log(addExpenses.length);
-console.log(addExpenses.toLowerCase().split(', '));
 console.log('бюджет на месяц ' + budgetMonth);
 console.log('цель будет достигнута за ' + period + ' месяцев');
 console.log('бюджет на день ' + budgetDay);
@@ -38,6 +33,6 @@ if (budgetDay < 0) {
     console.log('У вас низкий уровень дохода ');
 } else if ( budgetDay <= 19) {
     console.log('У вас средний уровень дохода ');
-} else if (budgetDay >= 20) {
+} else {
     console.log('У вас высокий уровень дохода');
 };
